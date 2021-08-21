@@ -1,0 +1,62 @@
+* {
+  transition: 0.4s ease;
+}
+
+.container {
+  width: 160px;
+  margin: auto;
+  margin-top: 90px;
+}
+
+input {
+  margin: 10px 0px;
+}
+
+.prop {
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  background-color: #696969;
+  border: 1px solid white;
+  padding: 5px 3px;
+  margin: 5px 0px;
+  border-radius: 1px;
+}
+
+button {
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  background-color: rgba(255, 235, 255, 0.5);
+  opacity: 0.8;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+#result {
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-top: 6px;
+  background-color: #696969;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.valEdit {
+  width: 60px;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  background-color: rgba(255, 235, 255, 0.5);
+  opacity: 0.8;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  margin: 0px;
+}
+
+input[type="range"] {
+  margin: 16px 0px;
+}
